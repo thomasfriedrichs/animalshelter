@@ -4,86 +4,136 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Document</title>
+
 </head>
 <body>
+<div class="container">
     <h1>Animal Shelter</h1>
     <h2>Available Animals</h2>
-  
     <ul>
-        <div class="column">
-        <li class="cat">Cat</li>
-            <ul>
-                <li>Bob</li>
-                <li>Spynx</li>
-                <li>Male</li>
-                <img src="img/bob.jpg">
-            </ul>
+        <div class="column" class="card">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card-body">
+                        <li class="cat">Cat</li>
+                            <ul>
+                                <li>Bob</li>
+                                <li>Spynx</li>
+                                <li>Male</li>
+                                <img src="img/bob.jpg">
+                            </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column">
-        <li class="dog">Dog</li>
-            <ul>
-                <li>Rover</li>
-                <li>Australian Shepard</li>
-                <li>Female</li>
-                <img src="img/rover.jpg">
-            </ul>
+            <div class="row">
+                <div class="col-md-3">
+                    <li class="dog">Dog</li>
+                        <ul>
+                            <li>Rover</li>
+                            <li>Australian Shepard</li>
+                            <li>Female</li>
+                            <img src="img/rover.jpg">
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="column">
-        <li>Bunnie</li>
-            <ul>
-                <li>Misty</li>
-                <li>Dwarf</li>
-                <li>Female</li>
-                <img src="img/misty.jpg">
-            </ul>
-            <div class="column"></div>
-        <li>Parrot</li>
-            <ul>
-                <li>jose</li>
-                <li>Macaw</li>
-                <li>Male</li>
-                <img src="img/jose.jpg">
-            </ul>
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Bunnie</li>
+                        <ul>
+                            <li>Misty</li>
+                            <li>Dwarf</li>
+                            <li>Female</li>
+                            <img src="img/misty.jpg">
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="column">
-        <li>Bat</li>
-            <ul>
-                <li>Dracula</li>
-                <li>Spotted Bat</li>
-                <li>Male</li>
-                <img src="img/dracula.jpg">
-            </ul>
-        </div>
-        <div class="column">
-        <li>Sloths</li>
-            <ul>
-                <li>Molases</li>
-                <li>Brown throated sloth</li>
-                <li>Female</li>
-                <img src="img/molases.jpg">
-            </ul>
-        </div>
-        <div class="column">
-        <li>Manatees</li>
-            <ul>
-                <li>Tiny</li>
-                <li>Florida Manatee</li>
-                <li>female</li>
-                <img src="img/tiny.jpg">
-            </ul>
-        </div>
-        <div class="column">
-        <li>Honey Badgers</li>
-            <ul>
-                <li>Karen</li>
-                <li>American Honey Badger</li>
-                <li>Male</li>
-                <img src="img/karen.jpg">
-            </ul>
-        </div>
-    </ul>
 
+        <div class="column">
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Parrot</li>
+                        <ul>
+                            <li>jose</li>
+                            <li>Macaw</li>
+                            <li>Male</li>
+                            <img src="img/jose.jpg">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        <div class="column">
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Bat</li>
+                        <ul>
+                            <li>Dracula</li>
+                            <li>Spotted Bat</li>
+                            <li>Male</li>
+                            <img src="img/dracula.jpg">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Sloths</li>
+                        <ul>
+                            <li>Molases</li>
+                            <li>Brown throated sloth</li>
+                            <li>Female</li>
+                            <img src="img/molases.jpg">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Manatees</li>
+                        <ul>
+                            <li>Tiny</li>
+                            <li>Florida Manatee</li>
+                            <li>female</li>
+                            <img src="img/tiny.jpg" width="260">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="row">
+                <div class="col-md-3">
+                    <li>Honey Badgers</li>
+                    <ul>
+                        <li>Karen</li>
+                        <li>American Honey Badger</li>
+                        <li>Male</li>
+                        <img src="img/karen.jpg">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <blockquote class="blockquote">
+            <p>"So many great animals here!</p>
+            <footer class="blockquote-footer">-random person</footer>
+        </blockquote>   
+    </div>
+</div>
 </body>
 </html>
